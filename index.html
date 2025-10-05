@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Study Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Smart Study Planner</h1>
+
+    <div class="task-input">
+        <input type="text" id="taskName" placeholder="Task Name">
+        <input type="date" id="dueDate">
+        <select id="priority">
+            <option value="Low">Low Priority</option>
+            <option value="Medium">Medium Priority</option>
+            <option value="High">High Priority</option>
+        </select>
+        <button id="addTask">Add Task</button>
+    </div>
+
+    <div class="task-list">
+        <h2>My Tasks</h2>
+        <ul id="tasks"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
